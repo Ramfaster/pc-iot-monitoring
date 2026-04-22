@@ -2,7 +2,7 @@
 title: "Environment Setup — Building the Foundation for IoT PC Monitoring"
 date: 2026-04-09 10:00:00 +0900
 categories: Environment
-tags: Rocky, podman, influxdb, mysql, telegraf, HWiNFO, grafana, metabase
+tags: Rocky, podman, influxdb, mysql, telegraf, HWiNFO, grafana, metabase, slack
 toc: true
 ---
 
