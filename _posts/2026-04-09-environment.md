@@ -44,6 +44,7 @@ Below is the environment-level architecture:
 └─ Metabase
  ↓
 [Slack Alert + Dashboard]
+```
 
 ### OS
 - Windows 11 (Data Collection Node)
