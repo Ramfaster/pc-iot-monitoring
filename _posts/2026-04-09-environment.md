@@ -31,6 +31,7 @@ focus on:
 
 Below is the environment-level architecture:
 
+```bash
 [Windows 11]
 ├─ HWiNFO (Sensor Data)
 ├─ Telegraf (System Metrics)
