@@ -152,6 +152,7 @@ Used for:
 
 ## 🏗️ Environment Architecture
 
+```bash
 Windows (HWiNFO + Telegraf)
 ↓
 Python Processing Layer
@@ -159,6 +160,7 @@ Python Processing Layer
 InfluxDB / MySQL
 ↓
 Slack / Metabase
+```
 
 ### 🧱 1. Operating System Setup
 
