@@ -1,6 +1,6 @@
 ---
 title: "Requirements — Designing an IoT-Based PC Monitoring System"
-date: 2026-04-22 10:00:00 +0900
+date: 2026-04-21 10:00:00 +0900
 categories: Requirements
 tags: iot, system-design, monitoring
 toc: true
