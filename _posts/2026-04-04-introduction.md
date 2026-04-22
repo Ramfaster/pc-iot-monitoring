@@ -1,6 +1,6 @@
 ---
 title: "Introduction — IoT PC Monitoring"
-date: 2026-04-08 10:00:00 +0900
+date: 2026-04-04 10:00:00 +0900
 categories: Overview
 tags: iot, monitoring, influxdb, hwinfo
 ---
