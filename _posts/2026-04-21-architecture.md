@@ -1,6 +1,6 @@
 ---
 title: "Architecture — IoT PC Monitoring System Design"
-date: 2026-04-23 10:00:00 +0900
+date: 2026-04-21 10:00:00 +0900
 categories: Architecture
 tags: architecture, pipeline, streaming
 toc: true
