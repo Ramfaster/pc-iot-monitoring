@@ -195,10 +195,12 @@ Used for:
 
 ---
 
-### Installation (Rocky Linux)
+Installation (Rocky Linux)
 
+```bash
 sudo dnf install -y podman
 podman --version
+```
 
 ---
 
