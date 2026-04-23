@@ -1,39 +1,98 @@
-# Chirpy Starter
+# 🚀 IoT PC Monitoring & Insight Platform
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+![GitHub repo size](https://img.shields.io/github/repo-size/ramfaster/pc-iot-monitoring)
+![GitHub last commit](https://img.shields.io/github/last-commit/ramfaster/pc-iot-monitoring)
+![GitHub stars](https://img.shields.io/github/stars/ramfaster/pc-iot-monitoring?style=social)
 
-A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
+---
 
-## Why This Starter Exists
+## 📌 Overview
 
-When installing Chirpy through [RubyGems.org][gem], Jekyll can only read a subset of theme files (`_data`, `_layouts`, `_includes`, `_sass`, `assets`) and limited `_config.yml` options from the gem. As a result, users cannot enjoy the full out-of-the-box experience that Chirpy offers.
+A real-time monitoring and analytics platform that transforms **raw PC hardware metrics into actionable insights**.
 
-To unlock all features, the following files must be present in your Jekyll site:
+---
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+## 🎥 Demo
+
+👉 Live Blog  
+https://ramfaster.github.io/pc-iot-monitoring/
+
+---
+
+## 🏗️ Architecture
+
+```text
+
+[Windows]
+  ├─ Telegraf
+  ├─ HWiNFO
+  └─ Python
+
+        ↓
+
+[InfluxDB]
+        ↓
+[MySQL]
+        ↓
+[Slack / Metabase]
+
 ```
 
-This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
+---
 
-## Usage
+## 🧠 Key Features
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+- Real-time system monitoring
+- Hardware sensor integration
+- Hybrid data pipeline
+- Slack alert system
+- BI dashboard (Metabase)
 
-## Contributing
+---
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+## 📊 Dashboard Preview
 
-## License
+![Dashboard](/assets/img/metabase-dashboard.png)
 
-This work is published under [MIT][mit] License.
+---
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+## ⚙️ Tech Stack
+
+- Python
+- InfluxDB
+- MySQL
+- Telegraf
+- HWiNFO
+- Slack
+- Metabase
+
+---
+
+## 🚀 Getting Started
+
+```text
+
+1. Install dependencies
+2. Run Telegraf
+3. Start Python collector
+4. Access InfluxDB & Metabase
+
+```
+
+---
+
+## 📚 Documentation
+
+👉 https://ramfaster.github.io/pc-iot-monitoring/
+
+---
+
+## 🎯 Goal
+
+Transform monitoring into insight-driven decision making.
+
+---
+
+## 📄 License
+
+MIT
