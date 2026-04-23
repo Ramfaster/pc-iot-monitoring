@@ -43,6 +43,7 @@ InfluxDB
 - Supports Windows
 
 ### ⚙️ Telegraf Configuration
+```text
 [agent]
   interval = "60s"
 
@@ -59,6 +60,7 @@ InfluxDB
   token = "YOUR_TOKEN"
   organization = "YOUR_ORG"
   bucket = "iot"
+```
 
 ---
 
